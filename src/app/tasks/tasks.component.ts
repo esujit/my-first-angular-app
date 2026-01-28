@@ -8,6 +8,6 @@ import {DUMMY_USERS} from "../dummy-users";
   styleUrls: ['./tasks.component.css']
 })
 export class TasksComponent {
-  @Input() name!: string;
+  @Input() name?: string;
 
 }
