@@ -67,4 +67,7 @@ export class TasksComponent {
     this.isAddingTask = false;
   }
 
+  onTaskComplete(id: string) {
+    this.tasks = this.tasks.filter(task => task.id !== id);
+  }
 }
